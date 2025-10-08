@@ -12,6 +12,8 @@ message = input("Geef een bericht om te versleutelen: ")
 key = Fernet.generate_key()
 
 # Instantieer de Fernet klasse met de gegenereerde key
+# De sleutel wordt gegeneereerd door Fernet zelf en moet dus niet worden opgegeven
+# De sleutel zo genereren is veilig omdat de sleutel niet wordt opgeslagen
 fernet_instance = Fernet(key)
 
 # Initialiseer encryptiebericht met None
