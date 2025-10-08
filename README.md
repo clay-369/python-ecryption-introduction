@@ -32,3 +32,4 @@ To decrypt data, you can call the `decrypt(data)` method on the `Fernet` instanc
 Sources:
 
 - https://www.geeksforgeeks.org/python/how-to-encrypt-and-decrypt-strings-in-python/
+- https://stackoverflow.com/questions/11063458/python-script-to-copy-text-to-clipboard
