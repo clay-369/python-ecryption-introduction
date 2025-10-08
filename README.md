@@ -29,6 +29,12 @@ Once you have a `Fernet` instance, you can use it to encrypt and decrypt data.
 To encrypt data, you can call the `encrypt(data)` method on the `Fernet` instance.
 To decrypt data, you can call the `decrypt(data)` method on the `Fernet` instance.
 
+## How to use this project
+
+1. Install the required packages by running `pip install -r requirements.txt`
+2. Run the `encryption_script.py` file
+3. Follow the instructions in the script
+
 Sources:
 
 - https://www.geeksforgeeks.org/python/how-to-encrypt-and-decrypt-strings-in-python/
